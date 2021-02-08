@@ -2,12 +2,12 @@ import java.text.SimpleDateFormat
 
 plugins {
     id 'java'
-    id 'com.github.johnrengelman.shadow' version '4.0.4'
+    id "com.github.johnrengelman.shadow" version "4.0.4"
 }
 
 configurations {
     group = 'me.arasple.mc.trchat'
-    version = '1.71'
+    version = '1.72'
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
@@ -38,7 +38,7 @@ dependencies {
     compile 'org.bstats:bstats-bukkit:1.7'
     compile 'io.izzel.taboolib:TabooLib:5.17:all'
     compile 'io.izzel.taboolib.loader:TabooLibloader:1.4:all'
-    compile 'me.clip:placeholderapi:2.10.4'
+    compile 'me.clip:placeholderapi:2.10.9'
     shadow fileTree(dir: 'libs', includes: ['*.jar'])
 }
 
