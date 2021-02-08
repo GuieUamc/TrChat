@@ -13,7 +13,7 @@ public final class TrChat extends Plugin {
     private static TrChatLoader loader;
 
     public static double getTrVersion() {
-        return 1.71;
+        return 1.72;
     }
 
 }
